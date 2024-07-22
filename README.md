@@ -1,10 +1,11 @@
 # Introduction
-📊 Dive into the data job market! Focusing on data analyst roles, this project explores 💰 top-paying jobs, 🔥 in-demand skills, and 📈 where high demand meets high salary in data analytics.
+This project explores 💰 top-paying jobs, 🔥 in-demand skills, and 📈 where high demand meets high salary in data analytics.
 
 🔍 SQL queries? Check them out here: [project_sql folder](/project_sql/)
 
 # Background
-Driven by a quest to navigate the data analyst job market more effectively, this project was born from a desire to pinpoint top-paid and in-demand skills, streamlining others work to find optimal jobs.
+![image](https://github.com/user-attachments/assets/afc9230c-26d2-497f-9dee-f03115594746)
+
 
 ### The questions I wanted to answer through my SQL queries were:
 
@@ -42,7 +43,7 @@ FROM
 LEFT JOIN company_dim ON job_postings_fact.company_id = company_dim.company_id
 WHERE
     job_title_short = 'Data Analyst' AND 
-    job_location = 'Anywhere' AND 
+    job_location = 'IN' AND 
     salary_year_avg IS NOT NULL
 ORDER BY
     salary_year_avg DESC
