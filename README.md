@@ -4,7 +4,8 @@ This project explores 💰 top-paying jobs, 🔥 in-demand skills, and 📈 wher
 🔍 SQL queries? Check them out here: [project_sql folder](/project_sql/)
 
 # Background
-![image](https://github.com/user-attachments/assets/afc9230c-26d2-497f-9dee-f03115594746)
+![Screenshot (500)](https://github.com/user-attachments/assets/965d5766-fdf8-4fd9-a387-ffb8c6bbee3a)
+
 
 
 ### The questions I wanted to answer through my SQL queries were:
